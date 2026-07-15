@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { TopNavBar } from './layout/top-nav-bar/top-nav-bar';
+import { Footer } from './layout/footer/footer';
 
 @Component({
   selector: 'app-root',
-  imports: [TopNavBar],
+  imports: [TopNavBar, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
